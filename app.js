@@ -10,7 +10,7 @@ const router = require('./User/UserManagement/route');
 
 const connectionString = 'MONGO_URL=mongodb://localhost:27017/user-management-service';
 
-const apiPrefix = '/api'
+const apiPrefix = '/api';
 
 mongoose.connect(connectionString, { autoIndex: true, // build indexes
     bufferMaxEntries: 0,
